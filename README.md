@@ -23,8 +23,6 @@ Project is created with:
 * Git: [Git - Installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * Visual Studio Code: [Visual Studio Code](https://code.visualstudio.com)
 
-* You can see the outcome here: https://alvaropz.github.io/excursion/
-
 ## Citations:
 
 [Full-Stack developer - Codecademy](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
