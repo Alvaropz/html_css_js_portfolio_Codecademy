@@ -1,0 +1,208 @@
+html {
+    background-color: #D3E84A;
+}
+
+/* Header */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+}
+
+#homepageButton {
+    background-color: #D3E84A;
+}
+
+button {
+    border: none;
+    background-color: #FEF7FB;
+    color: #BF0E87;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Body Content */
+
+p {
+    color: #32390A;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pageContent {
+    margin: 4% 3% 3% 4%;
+}
+
+.homeImg {
+    border-style: solid;
+    border-radius: 15px;
+    height: 45%;
+    width: 45%;
+}
+
+.divDisJustify div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pageContent h2 {
+    color: #BF0E87;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+/* HomePage */
+
+.italic {
+    font-style: italic;
+}
+
+#firstPHome {
+    margin-right: 5%;
+}
+
+#secondPHome {
+    margin-left: 5%;
+}
+
+#titlePHome {
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+/* Projects */
+
+.projectsLi {
+    padding-bottom: 5%;
+}
+
+li {
+    padding-right: 5%;
+    color: #32390A;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projectsImg {
+    border-style: solid;
+    border-radius: 15px;
+    height: 35%;
+    width: 35%;
+}
+
+/* About me */
+
+.collapsible {
+    background-color: #A3CA16;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 1,2em;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #bbe620;
+  }
+  
+  .content {
+    padding: 0 1%;
+    display: none;
+    overflow: hidden;
+    background-color: #bce233;
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 1025px) {
+    p, li {
+        font-size: 1em;
+    }
+
+    .homeImg, .projectsImg {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Header */ 
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        display: block;
+        width: 150px;
+    }
+
+    /* Footer */
+
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer div a {
+        display: block;
+    }
+
+    footer img {
+        width: 75%;
+        height: 75%;
+    }
+
+    /* Common Text rules*/
+
+    p, li {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    /* Home */
+
+    #firstPHome {
+        margin-right: 0%;
+    }
+    
+    #secondPHome {
+        margin-left: 0%;
+    }
+
+    /* About me */
+
+    .collapsible {
+        font-size: 0.9em;
+    }
+
+    .content {
+        padding: 4%;
+    }
+  }
+
